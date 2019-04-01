@@ -1,0 +1,23 @@
+@import "../../styles/modules/base";
+
+.jobsContainer{
+    padding: 2rem;
+    text-align: center;
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: $regent-grey;
+    padding: 1rem;
+    top: 6rem;
+    margin-bottom: 1rem;
+    z-index: 2;
+    text-align: left;
+    color: $white;
+}
+.job-form{
+    max-height: 30rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,60 @@
+@import "../../styles/modules/base";
+
+.jobdetails-holder{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+    font-size: $large;
+    color: $blue-label;
+    border: 1px dashed;
+    padding: 0.5rem;
+}
+.jobIcon{
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #4bc085;
+    border-radius: 50%;
+}
+.jobDetails{
+    font-size: $x-large;
+    color: $blue-label;
+    padding : 1rem;
+};
+
+.jobsContainer{
+    padding: 0.1rem;
+    text-align: center;
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: $regent-grey;
+    padding: 1rem;
+    top: 6rem;
+    margin-bottom: 1rem;
+    z-index: 2;
+    text-align: left;
+    color: $white;
+}
+.job-form{
+    max-height: 30rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.fit-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.back{
+    font-size: $x-large;
+    color: $blue-label;
+    padding : 1rem;
+    i{
+        vertical-align: middle;
+    }
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+@import "./colors";
+@import "./text";
+a {
+    color: $blue-primary;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: $white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.ant-form-explain{
+    color: $red
+}
+.ant-btn{
+ &:hover{
+    background-color: $blue-primary;
+    color:$white;
+    border: 1px solid $white;
+ }
+}
+.ant-btn-primary{
+    padding: 10px;
+    line-height: 5px;
+    margin-left:20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid $blue-primary;
+    outline: none;
+    border-radius: 1px;
+}
+
+.refer-your-friend{
+    background-color: $blue-primary;
+    color:$white;
+    border: 1px solid $blue-border;
+    font-size: $medium;
+    &:hover{
+        background-color: $blue-primary;
+        color:$white;
+        border: 1px solid $blue-border;
+     }
+}
