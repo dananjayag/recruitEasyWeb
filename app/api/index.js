@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { cookieKeys, cookies } from 'utils/cookies';
-const baseURL = 'http://localhost:3001/api/v1';
+const baseURL = 'https://recruit-easy-service.herokuapp.com/api/v1';
 
 const api = axios.create({
   baseURL,
